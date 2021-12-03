@@ -5,11 +5,11 @@ All of my code/tests was done and now, using Cucumber, I need to change all the 
 So I spend some time creating a batch file that you can run it inside of project folder and this batch file will convert all of your Cypress code to Cucumber.
 
 ## Usage
-This is basically a `batch`file, so you just need to be using Windows and run this file inside you project.
+This is basically a `batch` file, so you just need to be using Windows and run this file inside you project.
 
 Location for your cypress-2-cucumber.bat file:
-```javascript
-$ YOUR_CYPRESS_PROJECT
+```
+$ your_cypress_project
 .
 ├── cypress
 │   ├── fixtures
@@ -20,3 +20,5 @@ $ YOUR_CYPRESS_PROJECT
 ├── package.json
 └── cypress-2-cucumber.bat
 ```
+
+Then, double click on it and let it make the magic 🪄.
